@@ -1,68 +1,64 @@
 body {
-    text-align: center;
-    background-size: cover;
-    background-image: url("/.images/background.jpg");
+  text-align: center;
+  background-size: cover;
+  background-image: url("images/background.jpg");
 }
 
 h1 {
-    font-size: 5rem;
-    color: #DBEDF3;
-    font-family: "animalFont", cursive;
-    -webkit-text-stroke: 0.1px black;
-
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "animalFont", cursive;
+  -webkit-text-stroke: 0.1px black;
 }
 
-.animal{
-    outline: none;
-    border: 10px solid #404B69;
-    font-size: 5rem;
-    font-family: 'Arvo', cursive;
-    line-height: 2;
-    font-weight: 900;
-    color: #04dacf;
-    text-shadow: 3px 0 #8fcfe4;
-    border-radius: 15px;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    margin: 10px;
-    background-color: white;
+.animal {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #04dacf;
+  text-shadow: 3px 0 #8fcfe4;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-size: cover;
+  cursor: pointer;
 }
 
-.lusi{
-    background-image: url("images\lusi.jfif");
-    background-size: cover;
+.animal:active, .animal.pressed {
+  opacity: 0.5;
+}
+
+.lusi {
+  background-image: url("images/lusi.jfif");
 }
 
 .cat {
-    background-image: url("images\cat.jfif");
-    background-size: cover;
+  background-image: url("images/cat.jfif");
 }
 
-.cow{
-    background-image: url("images\cow.jpg");
-    background-size: cover;
-} 
-
-.giraffa{
-    background-image: url("images\Giraffa.jpg");
-    background-size: cover;
-} 
-
-.horse{
-    background-image: url("images\horse.jpg");
-    background-size: cover;
+.cow {
+  background-image: url("images/cow.jpg");
 }
 
-.lion{
-    background-image: url("images\lion.jpg");
-    background-size: cover;
+.giraffa {
+  background-image: url("images/Giraffa.jpg");
 }
 
+.horse {
+  background-image: url("images/horse.jpg");
+}
 
-.sheep{
-    background-image: url("images\sheep.jpg");
-    background-size: cover;
+.lion {
+  background-image: url("images/lion.jpg");
+}
 
+.sheep {
+  background-image: url("images/sheep.jpg");
 }
