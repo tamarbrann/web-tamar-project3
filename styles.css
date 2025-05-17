@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-size: cover;
-    background-image: url ()
+    background-image: url("/.images/background.jpg");
 }
 
 h1 {
@@ -10,42 +10,56 @@ h1 {
 }
 
 .animal{
-
-
-
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #04dacf;
+    text-shadow: 3px 0 #8fcfe4;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
 }
 
 .lusi{
-
-
+    background-image: url("images\lusi.jfif");
+    background-size: cover;
 }
 
 .cat {
-
-
+    background-image: url("images\cat.jfif");
+    background-size: cover;
 }
 
 .cow{
-
-
+    background-image: url("images\cow.jpg");
+    background-size: cover;
 } 
 
 .giraffa{
-
-
+    background-image: url("images\Giraffa.jpg");
+    background-size: cover;
 } 
 
 .horse{
-
-
+    background-image: url("images\horse.jpg");
+    background-size: cover;
 }
 
 .lion{
-
-
+    background-image: url("images\lion.jpg");
+    background-size: cover;
 }
 
-.sheep{
 
+.sheep{
+    background-image: url("images\sheep.jpg");
+    background-size: cover;
 
 }
