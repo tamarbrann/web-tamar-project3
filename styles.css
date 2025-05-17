@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #dbedf3;
+  color: #e77dd6;
   font-family: "animalFont", cursive;
   -webkit-text-stroke: 0.1px black;
 }
@@ -31,12 +31,14 @@ h1 {
   cursor: pointer;
 }
 
-.animal:active, .animal.pressed {
+.animal:active,
+.animal.pressed {
   opacity: 0.5;
 }
 
 .lusi {
   background-image: url("images/lusi.jfif");
+  background-position: center;
 }
 
 .cat {
@@ -45,6 +47,7 @@ h1 {
 
 .cow {
   background-image: url("images/cow.jpg");
+  background-position: right;
 }
 
 .giraffa {
@@ -61,4 +64,11 @@ h1 {
 
 .sheep {
   background-image: url("images/sheep.jpg");
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
